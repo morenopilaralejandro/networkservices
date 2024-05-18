@@ -21,6 +21,8 @@ header a {
 header {
     padding: 8px;
     margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
 }
 
 footer {

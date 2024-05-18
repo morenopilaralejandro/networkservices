@@ -37,7 +37,7 @@
             <h1>Índice</h1>
             <ul>
                 <li>
-                    <a href="./view/ssh.php">SSH</a>
+                    <a href="./view/claves.php">Claves</a>
                 </li>
                 <li>
                     <a href="./view/page1.php">Apuntes 2</a>
