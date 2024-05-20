@@ -11,7 +11,7 @@
 	    <meta name="keywords" content="servicios, red">
 	    <meta name="description" content="Apuntes sobre SSH">
 	    <meta name="author" content="Alexgohan">
-        <title>Claves - Network Services</title>
+        <title>Puerto ssh - Network Services</title>
 
 	    <link rel="apple-touch-icon" sizes="180x180" 
             href="<?=$path?>img/favicon/apple-touch-icon.png">
@@ -34,67 +34,54 @@
         </header>
 
         <section>
-            <h1>Claves</h1>
+            <h1>Puerto ssh</h1>
 
             <article>
-                <h4>Instalar ssh</h4>
-                <pre class="pre-no-img"><code>sudo apt install ssh</code></pre>
-            </article>
-
-            <article>
-                <h4>Crear una llave pública y privada en local (escribir passphrase que es la contraseña de la clave privada)</h4>
-                <pre><code>ssh-keygen -b 4096</code></pre>
-                <figure class="figure">
-                    <img src="../img/ej/ej1/1.png" class="figure-img img-fluid" alt="img">
-                </figure>
-            </article>
-
-            <article>
-                <h4>Añadir la clave pública el server ovh</h4>
-                <pre><code>ssh-copy-id debian@54.37.152.112</code></pre>
-                <figure class="figure">
-                    <img src="../img/ej/ej1/2.png" class="figure-img img-fluid" alt="img">
-                </figure>
-            </article>
-
-            <article>
-                <h4>Añadir un alias del servidor en tu config</h4>
-                <pre><code>sudo nano ~/.ssh/config
+                <h4>Cambiar el puerto en el servidor</h4>
+                <pre><code>sudo nano /etc/ssh/sshd_config
 ---------
-Host ovh
-HostName 54.37.152.112
-User debian
-IdentityFile ~/.ssh/id_rsa
+Port 1122
 ---------</code></pre>
                 <figure class="figure">
-                    <img src="../img/ej/ej1/3.png" class="figure-img img-fluid" alt="img">
+                    <img src="../img/ej/ej3/1.png" class="figure-img img-fluid" alt="img">
                 </figure>
             </article>
 
             <article>
-                <h4>Añadir clave privada al agente ssh en local</h4>
-                <pre><code>eval $(ssh-agent)
-ssh-add</code></pre>
+                <h4>Reiniciar servicio</h4>
+                <pre><code>sudo systemctl restart ssh</code></pre>
                 <figure class="figure">
-                    <img src="../img/ej/ej1/4.png" class="figure-img img-fluid" alt="img">
+                    <img src="../img/ej/ej3/2.png" class="figure-img img-fluid" alt="img">
                 </figure>
             </article>
 
             <article>
-                <h4>Probar a acceder por ssh con el alias y usando la clave</h4>
-                <pre><code>ssh ovh</code></pre>
+                <h4>Probar a acceder desde local a servidor</h4>
+                <pre><code>ssh -p 1122 debian@54.37.152.112</code></pre>
                 <figure class="figure">
-                    <img src="../img/ej/ej1/5.png" class="figure-img img-fluid" alt="img">
+                    <img src="../img/ej/ej3/3.png" class="figure-img img-fluid" alt="img">
                 </figure>
             </article>
 
             <article>
-                <h4>Mandar la clave pública</h4>
-                <pre><code>explorer.exe .ssh</code></pre>
+                <h4>Cambiar al puerto 22 en el server</h4>
+                <pre><code>sudo nano /etc/ssh/sshd_config
+---------
+Port 22
+---------</code></pre>
                 <figure class="figure">
-                    <img src="../img/ej/ej1/6.png" class="figure-img img-fluid" alt="img">
+                    <img src="../img/ej/ej3/4.png" class="figure-img img-fluid" alt="img">
                 </figure>
             </article>
+
+            <article>
+                <h4>Reiniciar servicio</h4>
+                <pre><code>sudo systemctl restart ssh</code></pre>
+                <figure class="figure">
+                    <img src="../img/ej/ej3/2.png" class="figure-img img-fluid" alt="img">
+                </figure>
+            </article>
+
         </section>
 
         <footer><?=$webComp->getFooter()?></footer>

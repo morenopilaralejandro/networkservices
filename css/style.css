@@ -10,6 +10,25 @@ section {
     padding-left: 10px;
 }
 
+article h4,
+article h3 {
+    width: max-content;
+    background-color: #f2ff0e;
+}
+
+pre {
+    margin-bottom: 0px;
+}
+
+pre.pre-no-img {
+    margin-bottom: .5rem;
+}
+
+.figure + .figure {
+    display: block;
+    margin-top: -15px;
+}
+
 header a {
     color: white;
     text-decoration: none;
@@ -27,6 +46,7 @@ header {
 
 footer {
     margin-top: 20px;
+    color: white;
 }
 
 footer p {

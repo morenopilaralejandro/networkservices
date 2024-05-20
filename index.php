@@ -4,7 +4,7 @@
     $path = $webComp->getPath();
 ?>
 <!doctype html>
-<html lang="es" data-bs-theme="dark">
+<html lang="es">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -43,16 +43,44 @@
                     <a href="./view/page1.php">Apuntes 2</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 3</a>
+                    <a href="./view/ssh-puerto.php">Ssh puerto</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 4</a>
+                    <a href="./view/ssh-root.php">Ssh root</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 5</a>
+                    <a href="./view/scp.php">Scp</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 6</a>
+                    <a href="./view/rsync.php">Rsync</a>
+                </li>
+                <li>
+                    <a href="./view/page1.php">Apuntes 7</a>
+                </li>
+                <li>
+                    <a href="./view/page1.php">Apuntes 8</a>
+                </li>
+                <li>
+                    <a href="./view/page1.php">Apuntes 9</a>
+                </li>
+                <li>
+                    <a href="./view/page1.php">Apuntes 10</a>
+                </li>
+                <li>
+                    <a href="./view/page1.php">Apuntes 11</a>
+                </li>
+                <li>
+                    <a href="./view/page1.php">Apuntes 12</a>
+                </li>
+                <li>
+                    <a href="./view/page1.php">Apuntes 13</a>
+                </li>
+
+                <li>
+                    <a href="./view/page1.php">Apuntes 14</a>
+                </li>
+                <li>
+                    <a href="./view/page1.php">Apuntes 15</a>
                 </li>
             </ul>
         </section>
