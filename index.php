@@ -8,8 +8,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="keywords" content="servicios, red">
-	    <meta name="description" content="Apuntes de servicios en red. Apache, SSH y FTP">
+	    <meta name="keywords" content="smr, 24, wuaze, com, configuracion, servicios, red">
+	    <meta name="description" content="Configuración de servicios en red (smr24.wuaze.com). Tutoriales y apuntes.">
 	    <meta name="author" content="Alexgohan">
         <title>Configuración de servicios en red - Network Services</title>
 
@@ -40,7 +40,7 @@
                     <a href="./view/claves.php">Claves</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 2</a>
+                    <a href="./view/kali.php">Apuntes 2</a>
                 </li>
                 <li>
                     <a href="./view/ssh-puerto.php">Ssh puerto</a>
@@ -61,10 +61,10 @@
                     <a href="./view/page1.php">Apuntes 8</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 9</a>
+                    <a href="./view/escritorio-remoto.php">Escritorio remoto</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 10</a>
+                    <a href="./view/apache.php">Apache</a>
                 </li>
                 <li>
                     <a href="./view/page1.php">Apuntes 11</a>

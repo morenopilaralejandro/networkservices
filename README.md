@@ -1,2 +1,2 @@
 Network services commands and configurations.<br>
-Live: networkservices.wuaze.com
+Live: smr24.wuaze.com

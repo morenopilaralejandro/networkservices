@@ -8,8 +8,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="keywords" content="servicios, red">
-	    <meta name="description" content="Apuntes sobre SSH">
+	    <meta name="keywords" content="servicios, red, Rsync">
+	    <meta name="description" content="Apuntes sobre Rsync">
 	    <meta name="author" content="Alexgohan">
         <title>Rsync - Network Services</title>
 

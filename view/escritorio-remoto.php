@@ -8,10 +8,10 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="keywords" content="servicios, red, scp">
-	    <meta name="description" content="Apuntes sobre Scp">
+	    <meta name="keywords" content="servicios, red">
+	    <meta name="description" content="Escritorio remoto de Windows">
 	    <meta name="author" content="Alexgohan">
-        <title>Scp - Network Services</title>
+        <title>Escritorio remoto - Network Services</title>
 
 	    <link rel="apple-touch-icon" sizes="180x180" 
             href="<?=$path?>img/favicon/apple-touch-icon.png">
@@ -34,30 +34,17 @@
         </header>
 
         <section>
-            <h1>Scp</h1>
+            <h1>Escritorio remoto</h1>
 
             <article>
-                <h4>Instalar tree</h4>
-                <pre class="pre-no-img"><code>sudo apt install tree</code></pre>
+                <h4>Habilitar</h4>
+                <pre class="pre-no-img"><code>Configuración, Sistema, Escritorio remoto, Activado</code></pre>
             </article>
 
             <article>
-                <h4>Crear árbol de directorios y ficheros</h4>
-                <pre><code>mkdir -p fernando/{dir1,dir2,dir3}
-
-touch fernando/{dir1/{archivo1.txt,archivo2.txt},dir2/{archivo1.txt,archivo2.txt},dir3/{archivo1.txt,archivo2.txt}}
-
-tree</code></pre>
-                <figure class="figure">
-                    <img src="../img/ej/ej5/1.png" class="figure-img img-fluid" alt="img">
-                </figure>
+                <h4>Conectar</h4>
+                <pre class="pre-no-img"><code>Abrir escritorio remoto y escribir la ip del otro ordenador</code></pre>
             </article>
-
-            <article>
-                <h4>Copiarlo al server del profesor</h4>
-                <pre class="pre-no-img"><code>scp -r fernando debian@profesor.<b style="background-color:yellow;">dominio</b>:/home/debian/examen_tema4</code></pre>
-            </article>
-
         </section>
 
         <footer><?=$webComp->getFooter()?></footer>

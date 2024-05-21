@@ -8,7 +8,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="keywords" content="servicios, red">
+	    <meta name="keywords" content="servicios, red, ssh, root">
 	    <meta name="description" content="Apuntes sobre SSH">
 	    <meta name="author" content="Alexgohan">
         <title>Ssh root - Network Services</title>

@@ -8,8 +8,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-	    <meta name="keywords" content="servicios, red">
-	    <meta name="description" content="Apuntes sobre SSH">
+	    <meta name="keywords" content="servicios, red, clave, plublica, privada, ssh">
+	    <meta name="description" content="Creación de claves públicas y privadas">
 	    <meta name="author" content="Alexgohan">
         <title>Claves - Network Services</title>
 
