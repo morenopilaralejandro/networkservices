@@ -55,7 +55,7 @@
                     <a href="./view/rsync.php">Rsync</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 7</a>
+                    <a href="./view/screen.php">Screen</a>
                 </li>
                 <li>
                     <a href="./view/page1.php">Apuntes 8</a>
@@ -67,7 +67,7 @@
                     <a href="./view/apache.php">Apache</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 11</a>
+                    <a href="./view/wordpress.php">WordPress</a>
                 </li>
                 <li>
                     <a href="./view/page1.php">Apuntes 12</a>

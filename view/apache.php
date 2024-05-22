@@ -98,11 +98,7 @@ CustomLog ${APACHE_LOG_DIR}/access_alumno10.log combined
 
             <article>
                 <h4>Deshabilitar sitio por defecto</h4>
-                <pre><code>cd /etc/apache2/sites-available
-sudo a2dissite 000-default.conf</code></pre>
-                <figure class="figure">
-                    <img src="../img/ej/ej10/7.png" class="figure-img img-fluid" alt="img">
-                </figure>
+                <pre><code>sudo a2dissite 000-default.conf</code></pre>
                 <figure class="figure">
                     <img src="../img/ej/ej10/8.png" class="figure-img img-fluid" alt="img">
                 </figure>
@@ -110,8 +106,7 @@ sudo a2dissite 000-default.conf</code></pre>
 
             <article>
                 <h4>Habilitar sitio</h4>
-                <pre><code>cd /etc/apache2/sites-available
-sudo a2ensite alumno10.conf</code></pre>
+                <pre><code>sudo a2ensite alumno10.conf</code></pre>
                 <figure class="figure">
                     <img src="../img/ej/ej10/9.png" class="figure-img img-fluid" alt="img">
                 </figure>
@@ -119,8 +114,7 @@ sudo a2ensite alumno10.conf</code></pre>
 
             <article>
                 <h4>Reiniciar servicio</h4>
-                <pre><code>cd /home/debian
-sudo systemctl restart apache2</code></pre>
+                <pre><code>sudo systemctl restart apache2</code></pre>
                 <figure class="figure">
                     <img src="../img/ej/ej10/10.png" class="figure-img img-fluid" alt="img">
                 </figure>
