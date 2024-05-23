@@ -58,7 +58,7 @@
                     <a href="./view/screen.php">Screen</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 8</a>
+                    <a href="./view/copia-seg-rsync.php">Copia de seguridad rsync</a>
                 </li>
                 <li>
                     <a href="./view/escritorio-remoto.php">Escritorio remoto</a>
