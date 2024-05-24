@@ -90,10 +90,12 @@ ssh-add</code></pre>
 
             <article>
                 <h4>Mandar la clave pública</h4>
-                <pre><code>explorer.exe .ssh</code></pre>
+                <pre><code>cat ~/.ssh/id_rsa.pub</code></pre>
+                <!--
                 <figure class="figure">
                     <img src="../img/ej/ej1/6.png" class="figure-img img-fluid" alt="img">
                 </figure>
+                -->
             </article>
         </section>
 

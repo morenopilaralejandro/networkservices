@@ -40,7 +40,7 @@
                     <a href="./view/claves.php">Claves</a>
                 </li>
                 <li>
-                    <a href="./view/kali.php">Apuntes 2</a>
+                    <a href="./view/kali.php">Kali</a>
                 </li>
                 <li>
                     <a href="./view/ssh-puerto.php">Ssh puerto</a>
