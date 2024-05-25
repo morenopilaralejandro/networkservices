@@ -70,7 +70,7 @@
                     <a href="./view/wordpress.php">WordPress</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 12</a>
+                    <a href="./view/grep.php">Grep</a>
                 </li>
                 <li>
                     <a href="./view/page1.php">Apuntes 13</a>
@@ -80,7 +80,7 @@
                     <a href="./view/page1.php">Apuntes 14</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 15</a>
+                    <a href="./view/ftp.php">Ftp</a>
                 </li>
             </ul>
         </section>
