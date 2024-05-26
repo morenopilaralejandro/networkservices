@@ -73,11 +73,11 @@
                     <a href="./view/grep.php">Grep</a>
                 </li>
                 <li>
-                    <a href="./view/page1.php">Apuntes 13</a>
+                    <a href="./view/copia-seg-wordpress.php">Copia de seguridad WordPress</a>
                 </li>
 
                 <li>
-                    <a href="./view/page1.php">Apuntes 14</a>
+                    <a href="./view/git.php">Git</a>
                 </li>
                 <li>
                     <a href="./view/ftp.php">Ftp</a>
