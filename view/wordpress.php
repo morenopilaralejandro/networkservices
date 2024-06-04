@@ -111,7 +111,8 @@ El comando nos pide información
 
             <article>
                 <h4>Instalar php</h4>
-                <pre><code>sudo apt install php</code></pre>
+                <pre><code>sudo apt install php
+sudo apt install php-mysql</code></pre>
                 <figure class="figure">
                     <img src="../img/ej/ej11/7.png" class="figure-img img-fluid" alt="img">
                 </figure>
@@ -144,7 +145,7 @@ El comando nos pide información
 ------------
 CREATE DATABASE wordpressExamen;
 
-CREATE USER 'wordpress_user'@'localhost' IDENTIFIED BY 'Rodrigo1234';
+CREATE USER 'wordpress_user'@'localhost' IDENTIFIED BY 'Rodrigo123';
 
 GRANT ALL PRIVILEGES ON wordpressExamen.* TO 'wordpress_user'@'localhost';
 
@@ -199,7 +200,7 @@ sudo rm -rf /var/www/examen2/wordpress</code></pre>
             </article>
 
             <article>
-                <h4>Comprobar que tenemos los archivo en /var/www/examen2</h4>
+                <h4>Comprobar que tenemos los archivos en /var/www/examen2</h4>
                 <pre><code>sudo ls /var/www/examen2</code></pre>
                 <figure class="figure">
                     <img src="../img/ej/ej11/15.png" class="figure-img img-fluid" alt="img">
