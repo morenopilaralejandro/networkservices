@@ -224,11 +224,9 @@ sudo find /var/www/examen2 -type f -exec chmod 644 {} \;</code></pre>
                     <li>Nombre del usuario de la base de datos</li>
                     <li>Contraseña del usuario de la base datos</li>
                 </ul>
-                <!--
                 <figure class="figure">
                     <img src="../img/ej/ej11/17.png" class="figure-img img-fluid" alt="img">
                 </figure>
-                -->
             </article>
 
             <article>

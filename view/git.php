@@ -42,6 +42,11 @@
             </article>
 
             <article>
+                <h4>Habilitar usuario www-data</h4>
+                <p><a href="apache.php#wdata">Ver ejercicio apache</a></p>
+            </article>
+
+            <article>
                 <h4>Cambiar a usuario www-data</h4>
                 <pre class="pre-no-img"><code>su www-data</code></pre>
             </article>

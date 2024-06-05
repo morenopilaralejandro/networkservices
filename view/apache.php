@@ -156,7 +156,7 @@ sudo find /var/www/examen1 -type f -exec chmod 644 {} \;</code></pre>
                 </figure>
             </article>
 
-            <article>
+            <article id="wdata">
                 <h4>Comprobar permisos</h4>
                 <pre><code>ls -lia /var/www/examen1</code></pre>
                 <figure class="figure">

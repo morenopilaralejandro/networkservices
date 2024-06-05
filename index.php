@@ -34,53 +34,70 @@
         </header>
 
         <section>
-            <h1>Índice</h1>
+            <h2>Teoría</h2>   
             <ul>
                 <li>
-                    <a href="./view/claves.php">Claves</a>
+                    <a href="./view/t-virtualhost.php">Configurar virtualhost en apache</a>
+                </li> 
+                <li>
+                    <a href="./view/t-wdata.php">Habilitar usuario www-data</a>
+                </li> 
+                <li>
+                    <a href="./view/t-certbot.php">Creación de certificados ssl con certbot</a>
+                </li> 
+                <li>
+                    <a href="./view/t-wordpress.php">Instalar y configurar wordpress</a>
+                </li> 
+            </ul>
+        </section>        
+    
+        <section>
+            <h2>Ejercícios</h2>
+            <ul>
+                <li>
+                    <a href="./view/claves.php">Ej1 Claves</a>
                 </li>
                 <li>
-                    <a href="./view/kali.php">Kali</a>
+                    <a href="./view/kali.php">Ej2 MV</a>
                 </li>
                 <li>
-                    <a href="./view/ssh-puerto.php">Ssh puerto</a>
+                    <a href="./view/ssh-puerto.php">Ej3 ssh</a>
                 </li>
                 <li>
-                    <a href="./view/ssh-root.php">Ssh root</a>
+                    <a href="./view/ssh-root.php">Ej4 ssh</a>
                 </li>
                 <li>
-                    <a href="./view/scp.php">Scp</a>
+                    <a href="./view/scp.php">Ej5 Scp</a>
                 </li>
                 <li>
-                    <a href="./view/rsync.php">Rsync</a>
+                    <a href="./view/rsync.php">Ej6 Rsync</a>
                 </li>
                 <li>
-                    <a href="./view/screen.php">Screen</a>
+                    <a href="./view/screen.php">Ej7 Screen</a>
                 </li>
                 <li>
-                    <a href="./view/copia-seg-rsync.php">Copia de seguridad rsync</a>
+                    <a href="./view/copia-seg-rsync.php">Ej8 Copia de seguridad</a>
                 </li>
                 <li>
-                    <a href="./view/escritorio-remoto.php">Escritorio remoto</a>
+                    <a href="./view/escritorio-remoto.php">Ej9 Escritorio remoto</a>
                 </li>
                 <li>
-                    <a href="./view/apache.php">Apache</a>
+                    <a href="./view/apache.php">Ej10 Apache</a>
                 </li>
                 <li>
-                    <a href="./view/wordpress.php">WordPress</a>
+                    <a href="./view/wordpress.php">Ej11 WordPress</a>
                 </li>
                 <li>
-                    <a href="./view/grep.php">Grep</a>
+                    <a href="./view/grep.php">Ej12 Grep</a>
                 </li>
                 <li>
-                    <a href="./view/copia-seg-wordpress.php">Copia de seguridad WordPress</a>
-                </li>
-
-                <li>
-                    <a href="./view/git.php">Git</a>
+                    <a href="./view/copia-seg-wordpress.php">Ej13 Copia de seguridad</a>
                 </li>
                 <li>
-                    <a href="./view/ftp.php">Ftp</a>
+                    <a href="./view/git.php">Ej14 Git</a>
+                </li>
+                <li>
+                    <a href="./view/ftp.php">Ej15 Ftp</a>
                 </li>
             </ul>
         </section>
