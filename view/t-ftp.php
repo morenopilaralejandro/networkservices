@@ -11,7 +11,7 @@
 	    <meta name="keywords" content="servicios, red">
 	    <meta name="description" content="Red">
 	    <meta name="author" content="Alexgohan">
-        <title>Creación de clave pública y privada - Network Services</title>
+        <title>Configurar ftp - Network Services</title>
 
 	    <link rel="apple-touch-icon" sizes="180x180" 
             href="<?=$path?>img/favicon/apple-touch-icon.png">
@@ -34,39 +34,52 @@
         </header>
 
         <section>
-            <h1>Creación de clave pública y privada</h1>
+            <h1>Configurar ftp</h1>
 
             <article>
-                <h4>Generar claves</h4>
-                <pre class="pre-no-img"><code>ssh-keygen -b 4096</code></pre>
-                <ul>
-                    <li>nombre del archivo</li>
-                    <li>passphrase</li>
-                </ul>
+                <h4>Paso 1: Instalar vsftpd</h4>
+                <pre class="pre-no-img"><code>sudo apt install vsftpd</code></pre>
             </article>
 
             <article>
-                <h4>Copiar clave pública en el servidor</h4>
-                <pre class="pre-no-img"><code>ssh-copy-id user@host</code></pre>
+                <h4>Paso 2: Copiar archivo de configuración</h4>
+                <pre class="pre-no-img"><code>sudo cp /etc/vsftpd.conf /etc/vsftpd-backup.conf</code></pre>
             </article>
 
             <article>
-                <h4>Añadir clave privada al agente ssh</h4>
-                <pre class="pre-no-img"><code>eval $(ssh-agent)
-ssh-add</code></pre>
-                <ul>
-                    <li>passphrase</li>
-                </ul>
+                <h4>Paso 3: Editar archivo de configuración</h4>
+                <pre class="pre-no-img"><code>sudo nano /etc/vsftpd.conf
+
+write_enable=YES</code></pre>
             </article>
 
             <article>
-                <h4>Mostrar clave pública</h4>
-                <pre class="pre-no-img"><code>cat ~/.ssh/id_rsa.pub</code></pre>
+                <h4>Paso 4: Reiniciar el servicio</h4>
+                <pre class="pre-no-img"><code>sudo systemctl restart vsftpd.service</code></pre>
             </article>
 
             <article>
-                <h4>Borrar claves</h4>
-                <pre class="pre-no-img"><code>ssh-keygen -R host</code></pre>
+                <h4>Paso 5: Crear usuario del sistema operativo</h4>
+                <pre class="pre-no-img"><code>sudo adduser usuario</code></pre>
+            </article>
+
+            <article>
+                <h4>Paso 6: Añadir el usuario a los grupos</h4>
+                <pre class="pre-no-img"><code>sudo usermod -a -G debian usuario
+sudo usermod -a -G www-data usuario
+sudo usermod -a -G ftp usuario</code></pre>
+            </article>
+
+            <article>
+                <h4>Paso 7: Probar desde filezilla</h4>
+                <p>
+                    Conexión rápida con filezilla.
+                </p>
+            </article>
+
+            <article>
+                <h4>Paso 8: Comprobar en el servidor</h4>
+                <pre class="pre-no-img"><code>ls -lia /home/usuario</code></pre>
             </article>
         </section>
 

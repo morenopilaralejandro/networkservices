@@ -90,7 +90,7 @@
                 <h5>Otros servicios</h5>
                 <ul>
                     <li>
-                        <a href="./view/t-ftp.php">Ftp</a>
+                        <a href="./view/t-ftp.php">Configurar ftp</a>
                     </li>
                     <li>
                         <a href="./view/t-git.php">Control de versiones</a>
