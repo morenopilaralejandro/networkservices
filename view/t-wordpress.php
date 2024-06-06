@@ -79,7 +79,7 @@ sudo apt install zip -y</code></pre>
 
 CREATE DATABASE nombredb;
 CREATE USER 'nombreuser'@'localhost' IDENTIFIED BY 'contraseña';
-GRANT ALL PRIVILEGES ON nombredb.* TO nombreuser@'localhost';
+GRANT ALL PRIVILEGES ON nombredb.* TO 'nombreuser@'localhost';
 FLUSH PRIVILEGES;
 EXIT;</code></pre>
             </article>

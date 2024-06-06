@@ -14,7 +14,16 @@ class webComp {
     public function getFooter(): string {
         $path = $this->path;
         $inner = "
-        <p class='text-center'>2024</p>";
+        <div>
+            <span class='text-center'>Alejandro Moreno Pilar 2024</span>
+            <div class='sns-container'>
+                <a href='https://github.com/morenopilaralejandro/networkservices'>
+                    <img src='{$path}img/svg/github-white.svg' alt='gh'></a>
+                <a href='https://www.youtube.com/channel/UCDc9fmXM_TDexYI7jXv9wug'>
+                    <img src='{$path}img/svg/youtube-white.svg' alt='yt'>
+                </a>
+            </div>
+        </div>";
         return $inner;
     }
 

@@ -28,30 +28,78 @@
             crossorigin="anonymous">
         <link rel="stylesheet" href="<?=$path?>css/style.css">
     </head>
-    <body class="short-page">
+    <body>
         <header>
             <?=$webComp->getHeader()?>
         </header>
 
         <section>
             <h2>Teoría</h2>   
-            <ul>
-                <li>
-                    <a href="./view/t-virtualhost.php">Configurar virtualhost en apache</a>
-                </li> 
-                <li>
-                    <a href="./view/t-wdata.php">Habilitar usuario www-data</a>
-                </li> 
-                <li>
-                    <a href="./view/t-certbot.php">Creación de certificados ssl con certbot</a>
-                </li> 
-                <li>
-                    <a href="./view/t-wordpress.php">Instalar y configurar wordpress</a>
-                </li> 
-            </ul>
+            <article>
+                <h5>Comandos</h5>
+                <ul>
+                    <li>
+                        <a href="./view/t-directorios.php">Creación de árbol de directorios</a>
+                    </li>
+                    <li>
+                        <a href="./view/t-scp.php">Scp</a>
+                    </li>
+                    <li>
+                        <a href="./view/t-rsync.php">Rsync</a>
+                    </li>
+                    <li>
+                        <a href="./view/t-screen.php">Screen</a>
+                    </li>
+                    <li>
+                        <a href="./view/t-grep.php">Grep</a>
+                    </li>
+                    <li>
+                        <a href="./view/t-tar.php">Tar</a>
+                    </li>
+                <ul>
+            </article>
+            <article>
+                <h5>Ssh</h5>
+                <ul>
+                    <li>
+                        <a href="./view/t-ssh-conf.php">Configuración de ssh</a>
+                    </li>
+                    <li>
+                        <a href="./view/t-ssh-key.php">Creación de clave pública y privada</a>
+                    </li>
+                <ul>
+            </article>
+            <article>
+                <h5>Apache</h5>
+                <ul>
+                    <li>
+                        <a href="./view/t-virtualhost.php">Configurar virtualhost en apache</a>
+                    </li>
+                    <li>
+                        <a href="./view/t-certbot.php">Creación de certificados ssl con certbot</a>
+                    </li>
+                    <li>
+                        <a href="./view/t-wdata.php">Habilitar usuario www-data</a>
+                    </li> 
+                    <li>
+                        <a href="./view/t-wordpress.php">Instalar y configurar wordpress</a>
+                    </li> 
+                </ul>
+            </article>
+            <article>
+                <h5>Otros servicios</h5>
+                <ul>
+                    <li>
+                        <a href="./view/t-ftp.php">Ftp</a>
+                    </li>
+                    <li>
+                        <a href="./view/t-git.php">Control de versiones</a>
+                    </li>
+                </ul>
+            </article>
         </section>        
     
-        <section>
+        <section style="display: none;">
             <h2>Ejercícios</h2>
             <ul>
                 <li>
@@ -61,10 +109,10 @@
                     <a href="./view/kali.php">Ej2 MV</a>
                 </li>
                 <li>
-                    <a href="./view/ssh-puerto.php">Ej3 ssh</a>
+                    <a href="./view/ssh-puerto.php">Ej3 Ssh</a>
                 </li>
                 <li>
-                    <a href="./view/ssh-root.php">Ej4 ssh</a>
+                    <a href="./view/ssh-root.php">Ej4 Ssh</a>
                 </li>
                 <li>
                     <a href="./view/scp.php">Ej5 Scp</a>
