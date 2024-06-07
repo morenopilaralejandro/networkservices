@@ -56,6 +56,9 @@
                     <li>
                         <a href="./view/t-tar.php">Tar</a>
                     </li>
+                    <li>
+                        <a href="./view/t-script.php">Creación de sripts</a>
+                    </li>
                 <ul>
             </article>
             <article>
